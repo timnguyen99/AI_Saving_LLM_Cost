@@ -1,0 +1,18 @@
+{
+  "name": "ai-cacher-angular",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Angular-friendly semantic cache layer for local prompt matching and cloud fallback.",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "mongodb": "^7.5.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^20.14.0"
+  }
+}
